@@ -9,7 +9,7 @@
 title: Jack's Blog
 description: 'A simple blog' # write a nice description for your blog
 baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site http://www.example.com
+url: 'https://yangshuo.github.io/' # the base hostname & protocol for your site http://www.example.com
 email: yangshuosdu@gmail.com
 # google_analytics: 'UA-XXXXXX-X'
 # twitter_username: 'twitter_username'
