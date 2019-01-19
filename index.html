@@ -20,6 +20,13 @@ layout: default
 
     {{ post.content }}
 
+    
+    <ul class="post-tags" style="padding-left:0px; display: inline;">
+        {% for tag in post.tags %}
+        <li><a href="#" class="post-tag">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+        
     <p class="post-meta" style="text-align: right; color: rgb(152,152,152);">
       <time datetime="{{ post.date | date_to_xmlschema }}"
             itemprop="datePublished">{{ post.date | date: "%Y年%m月%d日" }}
