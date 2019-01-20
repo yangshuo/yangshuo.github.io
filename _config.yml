@@ -16,6 +16,8 @@ email: yangshuosdu@gmail.com
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 
 permalink: '/:title/'
 
